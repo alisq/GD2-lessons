@@ -1,0 +1,18 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.parent {
+	background:rgb(255,0,0);
+	width:500px;
+	height:500px;
+}
+
+
+.child {
+	background:rgb(0,255,0);
+	width:150px;
+	height:150px;
+}
