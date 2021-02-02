@@ -3,16 +3,50 @@
 	margin:0;
 	box-sizing:border-box;
 }
+body {
+	height:5000px;
 
+}
 .parent {
+	position:absolute;
 	background:rgb(255,0,0);
+	mix-blend-mode: multiply;
 	width:500px;
 	height:500px;
+	padding:20px;
+	margin:20px;
+	top:50%; left:50%;
 }
 
 
 .child {
+	position:absolute;
+	mix-blend-mode: multiply;
+	z-index:-1;
+	right:-50px;
+	bottom:-50px;
 	background:rgb(0,255,0);
 	width:150px;
 	height:150px;
+	transform:perspective(30)
 }
+
+
+.trapezoid {
+	width:100px;
+	height:300px;
+	border:2px solid #000;
+	clip-path: polygon(23% 0, 72% 1%, 100% 100%, 0% 100%); /* Clipping path taken from: https://bennettfeely.com/clippy/ */
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,111,9,1) 42%, rgba(0,212,255,1) 100%);
+	
+
+
+  }
+
+
+/*
+
+
+
+
+*/
