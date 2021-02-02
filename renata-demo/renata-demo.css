@@ -1,3 +1,76 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
 body {
     background:green;
+    width:500vw;
+    height:8000px;
+}
+
+div {
+	width:500px;
+	height:500px;
+	background-color:blue;
+	/*margin:20px;*/
+}
+
+
+.forlornDesigner {
+	width:200px;
+}
+
+.flyingAway {
+	position:absolute;
+	top:5000px; left:5000px;
+}
+
+
+.flyingCloser {
+	position:fixed;
+	bottom:50px; right:50px;
+	
+	border-radius:50%;
+	text-align:center;
+	padding:50px;
+	transition:all 0.5s;
+}
+
+.flyingCloser:hover {
+	transform:rotate(345deg);
+}
+
+.anotherColor { /* in CSS, dot */
+	background-color:red;
+}
+
+.smaller {
+	width:250px;
+	height:250px;
+}
+
+.whiteText {
+	color:white;
+}
+
+#theGreenDiv {
+	background:#00FF00;
+}
+
+
+.exampleParent,
+.exampleChild {
+	border:1px solid black;
+}
+
+/*.exampleParent {
+	overflow:hidden;
+}
+
+*/
+.exampleChild {
+	height:50%;
+	width:250%;
 }
