@@ -16,8 +16,12 @@ body {
 	padding:20px;
 	margin:20px;
 	top:50%; left:50%;
+	transform-origin: 0 50%; /* FOR DINA */
+	transition:all 0.2s; 
 }
-
+.parent:active {
+	transform: perspective(1200px) rotateY(-80deg); /* FOR DINA */
+}
 
 .child {
 	position:absolute;
