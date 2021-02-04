@@ -1,0 +1,35 @@
+
+
+/* 
+
+
+display
+display:block vs. inline 
+display:none;
+display:grid;
+columns.
+1fr 2fr
+add another column
+add a header
+what's the website about?
+Add some typography
+
+https://cssgridgarden.com/
+
+*/
+
+
+.grid-container {
+
+
+}
+
+.sidebar {
+	
+	background-color:red;
+}
+
+.main {
+	
+	background-color:green;
+}
