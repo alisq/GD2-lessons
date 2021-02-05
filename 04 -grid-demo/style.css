@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&display=swap');
 
+* {
+	box-sizing:border-box; /* scales content with padding and bordewr pre calculated; */
+	margin:0;
+	padding:0;
+}
 
 /* 
 
@@ -18,18 +24,59 @@ https://cssgridgarden.com/
 
 */
 
-
-.grid-container {
-
+h1 {
+	font-size:100px;
 
 }
+h1, h2, h3 {
+	font-family:"Big Shoulders Display", Sans;
+	text-transform:uppercase;
+}
 
+.grid-container {
+	display:grid;
+	grid-template-columns:1fr 3fr 1fr;
+	max-width:1200px;
+	margin:200px auto;
+
+}
+.header {
+	
+	grid-column-start:1;
+	grid-column-end:4;
+	text-align:center;
+	padding:2rem;
+}
 .sidebar {
 	
-	background-color:red;
+	padding:1em;
+	/* display:none; */
+}
+
+img {
+	max-width:100%;
+}
+
+.news-item {
+	padding-bottom:1rem;
+	border-bottom:1px solid #000;
+	margin-bottom:1rem;
+}
+
+p {
+	text-indent:5em;
 }
 
 .main {
 	
-	background-color:green;
+
+}
+
+.footer {
+	margin-top:1em;
+	border-top:1px solid #000;
+	padding-top:1em;
+	/* background:yellow; */
+	grid-column-start:1;
+	grid-column-end:4;
 }
