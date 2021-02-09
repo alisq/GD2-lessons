@@ -1,0 +1,16 @@
+* {
+	margin:0;
+	box-sizing:border-box;
+}
+
+.box {
+	background:blue;
+	color:white;
+	width:500px;
+	height:500px;
+	padding:20px; 						/* space inside the box */
+	border:12px solid black;		  /* space around the box */
+	margin:50px;						/* space outside the box */
+	
+	
+}
