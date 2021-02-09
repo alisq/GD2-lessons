@@ -1,0 +1,49 @@
+* {
+	margin:0;
+	box-sizing:border-box;
+}
+
+html, body {
+	font-family: ff-scala, sans-serif;
+	font-size:30px;
+	font-weight: 400;	
+	font-style: normal;
+}
+
+
+
+h1, h2, h3, h4 {
+	font-weight:normal;
+}
+
+
+h1 {
+	font-size:3em;
+}
+
+.article-title {
+	position:fixed;
+	transform:rotate(90deg);
+	transform-origin:0 100%;
+	position:fixed;
+}
+
+h2 {
+	font-size:2em;
+}
+
+.all {
+	max-width:1000px;
+	margin:auto;
+}
+
+
+
+
+h3 {
+	font-style:italic;
+}
+
+.footnote {
+	font-size:0.5em;
+}
