@@ -1,14 +1,15 @@
 $(document).click(function(){
-	$(".container").toggleClass("clicked")
+	//$(".container").toggleClass("clicked")
+	$(document).scrollTo(".hidden",2000);
 })
 
 
 
+	docHeight = $(document).height();
+	winHeight = $(window).height();
 
 $(document).scroll(function(){
 
-	docHeight = $(document).height();
-	winHeight = $(window).height();
 	fromTop = $(document).scrollTop();
 
 	scrollRatio = fromTop/(docHeight-winHeight)
@@ -32,6 +33,6 @@ $(document).scroll(function(){
 
 
 
-	console.log(scrollRatio);
+//	console.log(scrollRatio);
 
 })
