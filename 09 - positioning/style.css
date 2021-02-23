@@ -12,6 +12,24 @@ body {
 	
 }
 
+
+#menu {
+	position:fixed;
+	right:20px
+}
+
+#menu li {
+	list-style-type:none;
+	font-size:30px;
+	transition:all 0.4s;
+	cursor:pointer
+}
+
+#menu li:hover {
+	font-size:60px;
+}
+
+
 .main-text {
 	max-width:1000px;
 	/*margin-top:30px;
@@ -22,7 +40,7 @@ body {
 		font-size:2rem;
 		border:1px solid #000;
 
-		position:absolute;
+		/* position:absolute; */
 		top:30px; left:30px;
 		max-width:1000px;
 		background:white;

@@ -12,6 +12,14 @@ body {
 	
 }
 
+
+.trapezoid {
+	width:60px;
+	height:100px;
+}
+
+
+
 .main-text {
 	max-width:1000px;
 	margin:auto;
