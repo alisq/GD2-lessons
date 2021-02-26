@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,500;1,300&family=Source+Serif+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+html {
+    font-size:10px /* this defines the rem size: 1rem = 10px */
+}
+
+body {
+    font-size:2rem; /* this make the site default text size to be 20px; */
+    font-family: 'IBM Plex Serif'; /* remember that much of CSS is recursive. so applying a rule here will apply to all child elements */
+    font-weight:300;
+}
+
+img {
+    width:100%
+}
+
+.main-column {
+    width:1000px;
+    position:relative;
+    left:450px;
+}
+
+p {
+    margin-bottom:1em;
+}
+
+p.caption {
+    font-size:0.75em;
+}
+
+
+@media (max-width:60rem) {
+    body {
+        background:black;
+        color:white;
+    }
+}
